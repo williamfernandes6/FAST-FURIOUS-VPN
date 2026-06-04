@@ -1,0 +1,107 @@
+/* Cores Globais e Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0A0A0C; /* Preto de fundo */
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 30px 20px;
+}
+
+/* Cabeçalho */
+.header h1 {
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.header h1 span {
+    color: #D32F2F; /* Vermelho Furioso */
+}
+
+.subtitle {
+    color: #8B8D99;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: 5px;
+}
+
+/* Seletores (Cards Azul Escuro) */
+.selector-container {
+    background-color: #12131C; /* Azul Escuro */
+    width: 100%;
+    max-width: 350px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #1565C0; /* Borda Azul Elétrico */
+    margin-bottom: 15px;
+}
+
+.selector-container label {
+    display: block;
+    font-size: 12px;
+    color: #8B8D99;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.selector-container select {
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Área do Botão de Conexão */
+.connection-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#connect-btn {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+/* Estados do Botão */
+.disconnected {
+    background: linear-gradient(135deg, #D32F2F, #9A0007); /* Vermelho */
+    box-shadow: 0px 0px 25px rgba(211, 47, 47, 0.4);
+}
+
+.connected {
+    background: linear-gradient(135deg, #1565C0, #0D47A1); /* Azul */
+    box-shadow: 0px 0px 25px rgba(21, 101, 192, 0.6);
+}
+
+#status-text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #8B8D99;
+    letter-spacing: 1px;
+}
