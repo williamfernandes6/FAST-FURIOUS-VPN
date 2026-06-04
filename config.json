@@ -1,0 +1,15 @@
+{
+  "version": 1.0,
+  "tweaks": [
+    {
+      "name": "Unitel WhatsApp Ativo",
+      "sni": "c.whatsapp.net",
+      "port": 443
+    },
+    {
+      "name": "Unitel Redes Sociais",
+      "sni": "m.facebook.com",
+      "port": 443
+    }
+  ]
+}
