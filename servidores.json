@@ -1,16 +1,54 @@
 {
   "operator": "Unitel Angola 🇦🇴",
-  "update_version": 1,
+  "update_version": 2,
+  "servers": [
+    {
+      "name": "Angola 🇦🇴 - Local Node",
+      "ip": "197.242.144.1",
+      "port": 443,
+      "flag": "ao"
+    },
+    {
+      "name": "South Africa 🇿🇦 - Cape Town",
+      "ip": "za1.node-ssh.net",
+      "port": 443,
+      "flag": "za"
+    },
+    {
+      "name": "France 🇫🇷 - Paris Premium",
+      "ip": "fr1.node-ssh.net",
+      "port": 443,
+      "flag": "fr"
+    },
+    {
+      "name": "United States 🇺🇸 - New York",
+      "ip": "us1.node-ssh.net",
+      "port": 443,
+      "flag": "us"
+    },
+    {
+      "name": "Singapore 🇸🇬 - Asia Fast",
+      "ip": "sg1.node-ssh.net",
+      "port": 443,
+      "flag": "sg"
+    },
+    {
+      "name": "Germany 🇩🇪 - Frankfurt",
+      "ip": "de1.node-ssh.net",
+      "port": 443,
+      "flag": "de"
+    }
+  ],
   "tweaks": [
     {
-      "name": "Unitel WhatsApp Ativo",
+      "name": "Unitel WhatsApp Ativo (SSL)",
       "sni": "c.whatsapp.net",
       "port": 443,
       "mode": "SSL_TLS",
       "payload": ""
     },
     {
-      "name": "Unitel Redes Sociais (Face/Insta)",
+      "name": "Unitel Redes Sociais (SSL)",
       "sni": "m.facebook.com",
       "port": 443,
       "mode": "SSL_TLS",
