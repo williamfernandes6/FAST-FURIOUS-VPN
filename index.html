@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast & Furious VPN</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>FAST & FURIOUS <span>VPN</span></h1>
+        <p class="subtitle">FREE INTERNET TUNNEL</p>
+    </div>
+
+    <div class="selector-container">
+        <label for="server-select">Escolha o Servidor:</label>
+        <select id="server-select">
+            <option value="us">United States 🇺🇸</option>
+            <option value="fr">France 🇫🇷</option>
+            <option value="ao">Angola 🇦🇴</option>
+            <option value="za">South Africa 🇿🇦</option>
+            <option value="de">Germany 🇩🇪</option>
+        </select>
+    </div>
+
+    <div class="selector-container">
+        <label for="sni-select">Plano Ativo (SNI):</label>
+        <select id="sni-select">
+            <option value="v.whatsapp.net">WhatsApp Ilimitado</option>
+            <option value="m.facebook.com">Facebook Grátis</option>
+            <option value="instagram.com">Instagram Pack</option>
+        </select>
+    </div>
+
+    <div class="connection-section">
+        <button id="connect-btn" class="disconnected">CONECTAR</button>
+        <div id="status-text">Status: Desconectado</div>
+    </div>
+
+    <script src="js/vpn.js"></script>
+</body>
+</html>
