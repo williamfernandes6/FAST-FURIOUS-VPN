@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.fastfurious.vpn.unitel" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    
+    <name>Fast &amp; Furious VPN</name>
+    
+    <description>
+        High Speed Tunnel VPN - Secure Your Connection.
+    </description>
+    
+    <author email="seu-email@exemplo.com" href="https://your-github-username.github.io">
+        Fast &amp; Furious Dev Team
+    </author>
+    
+    <content src="index.html" />
+    
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <preference name="KeepRunning" value="true" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+
+    <preference name="StatusBarBackgroundColor" value="#0A0A0C" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.INTERNET" />
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+            <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+        </config-file>
+    </platform>
+</widget>
