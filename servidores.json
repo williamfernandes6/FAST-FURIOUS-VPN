@@ -1,28 +1,27 @@
 {
+  "operator": "Unitel Angola 🇦🇴",
+  "update_version": 1,
   "tweaks": [
     {
-      "name": "Unitel Redes Sociais (Geral)",
+      "name": "Unitel WhatsApp Ativo",
+      "sni": "c.whatsapp.net",
+      "port": 443,
+      "mode": "SSL_TLS",
+      "payload": ""
+    },
+    {
+      "name": "Unitel Redes Sociais (Face/Insta)",
       "sni": "m.facebook.com",
       "port": 443,
-      "mode": "SSL/TLSTunnel"
+      "mode": "SSL_TLS",
+      "payload": ""
     },
     {
-      "name": "Unitel WhatsApp Pack (Alt)",
-      "sni": "v.whatsapp.net",
-      "port": 443,
-      "mode": "SSL/TLSTunnel"
-    },
-    {
-      "name": "Movicel Redes Sociais",
-      "sni": "upload.facebook.com",
-      "port": 443,
-      "mode": "SSL/TLSTunnel"
-    },
-    {
-      "name": "Vodacom/MTN Social Pack",
-      "sni": "twitter.com",
-      "port": 443,
-      "mode": "SSL/TLSTunnel"
+      "name": "Unitel Websocket (Alternativo)",
+      "sni": "portal.unitel.ao",
+      "port": 80,
+      "mode": "HTTP_WS",
+      "payload": "GET / HTTP/1.1[crlf]Host: portal.unitel.ao[crlf]Upgrade: websocket[crlf][crlf]"
     }
   ]
 }
