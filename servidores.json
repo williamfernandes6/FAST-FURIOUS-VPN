@@ -1,0 +1,28 @@
+{
+  "tweaks": [
+    {
+      "name": "Unitel Redes Sociais (Geral)",
+      "sni": "m.facebook.com",
+      "port": 443,
+      "mode": "SSL/TLSTunnel"
+    },
+    {
+      "name": "Unitel WhatsApp Pack (Alt)",
+      "sni": "v.whatsapp.net",
+      "port": 443,
+      "mode": "SSL/TLSTunnel"
+    },
+    {
+      "name": "Movicel Redes Sociais",
+      "sni": "upload.facebook.com",
+      "port": 443,
+      "mode": "SSL/TLSTunnel"
+    },
+    {
+      "name": "Vodacom/MTN Social Pack",
+      "sni": "twitter.com",
+      "port": 443,
+      "mode": "SSL/TLSTunnel"
+    }
+  ]
+}
